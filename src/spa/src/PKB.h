@@ -1,6 +1,6 @@
 #pragma once
 
-#include<stdio.h>
+#include <cstdio>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -9,7 +9,7 @@
 #include <Token.h>
 
 using namespace std;
-typedef short PROC;
+using PROC = short;
 
 class TNode;
 
@@ -47,5 +47,6 @@ public:
 	static ProcTable* procTable;
 	static int setProcToAST(PROC p, TNode* r);
 	static TNode* getRootAST (PROC p);
+
 
 };
