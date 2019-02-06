@@ -1,4 +1,6 @@
-#include <cstdio>
+#pragma once
+
+#include<stdio.h>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -112,5 +114,7 @@ int PKB::setProcToAST(PROC p, TNode* r) {
 	return NULL;
 }
 
+TNode* PKB::getRootAST (PROC p){
 
-TNode *PKB::getRootAST(PROC /*p*/) { return nullptr; }
+	return NULL;
+}

@@ -1,3 +1,5 @@
-class TNode {
+class TNode
+{
 public:
+
 };
